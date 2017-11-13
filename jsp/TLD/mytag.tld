@@ -1,0 +1,13 @@
+<taglib>
+<tlib-version>1.0</tlib-version>
+<jsp-version>2.0</jsp-version>
+<short-name> xyz </short-name>
+<tag>
+	<name>newtable</name>
+	<tag-class>c3.Table</tag-class>
+	<body-content>empty</body-content>
+	<attribute>
+		<name>tab</name>
+	</attribute> 
+</tag>
+</taglib>

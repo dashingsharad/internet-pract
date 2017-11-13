@@ -1,0 +1,14 @@
+<taglib>
+<tlib-version>1.0</tlib-version>
+<jsp-version>2.0</jsp-version>
+<short-name> xyz</short-name>
+<tag>
+	<name>revstr</name>
+	<tag-class>c3.Revtag</tag-class>
+	<body-content>empty</body-content>
+	<attribute>
+		<name>input</name>
+		<required>true</required>
+	</attribute>
+</tag>
+</taglib>
