@@ -1,0 +1,11 @@
+If you added it in the control panel while your command prompt was open, that won't affect your current command prompt. You'll need to exit and re-open or simply do:
+
+set path="%path%;c:\program files\java\jdk1.6.0_16\bin"
+By way of checking, execute:
+
+echo %path%
+from your command prompt and let us know what it is.
+
+Otherwise, make sure there is a javac in that directory by trying:
+
+"c:\program files\java\jdk1.6.0_16\bin\javac.exe"
